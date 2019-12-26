@@ -1,0 +1,41 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Microsoft YaHei;
+  font-size: 14px;
+  user-select: none;
+}
+
+/* 修改el-select选择框的样式 */
+div.el-select-dropdown.el-popper{
+  background-color: #3a3e43;
+  overflow: hidden;
+  margin-top: -3px;
+  border: 0;
+  min-width: 230px;
+}
+div.el-popper .popper__arrow, .el-popper .popper__arrow::after{
+  display: none;
+}
+ul.el-select-dropdown__list{
+  padding: 0;
+}
+li.el-select-dropdown__item{
+  color: #e5e5e5;
+}
+li.el-select-dropdown__item.hover, li.el-select-dropdown__item:hover{
+  background-color: #000;
+}
+
+/* i {
+  cursor: pointer;
+}
+i:hover {
+  color: #fff;
+  background-color: #333;
+}
+i:active {
+  background-color: #000;
+} */
